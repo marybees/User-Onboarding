@@ -34,8 +34,6 @@ export default function App() {
   const [formErrors, setFormErrors] = useState(initialFormErrors) // object
   const [disabled, setDisabled] = useState(initialDisabled)       // boolean
 
-  console.log(users)
-
   //////////////// NETWORKING HELPERS ////////////////
   // const getUsers = () => {
   //   // 🔥 STEP 5- IMPLEMENT! ON SUCCESS PUT USERS IN STATE
